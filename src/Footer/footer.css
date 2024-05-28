@@ -1,0 +1,148 @@
+.containerf {
+    width: 100%;
+    background-color: #0C1A2A;
+    padding: 0 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    color: white; /* Цвет текста по умолчанию */   
+    
+
+  }
+  
+  .column {
+    flex: 1;
+    padding: 1vw;
+  }
+  
+  .titlef {
+    font-size: 1.7vw;
+    margin-bottom: 10px; 
+    color: #868DAC;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list-item {
+    margin-bottom: 10px;  
+    font-size: 0.9vw; 
+    padding-top: 0.7vw;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .info-image {
+    margin-top: 10px;
+    width: 7vw; 
+    height: 3vw;
+  }
+  
+  .subscription-container {
+    width: 100%;
+    margin-top: -14vw; 
+    margin-left: 51.2vw;
+    text-align: center;
+    color: white; /* Цвет текста для подписки */
+  }
+  
+  .subscription-text {
+    margin-bottom: 10px;  
+    text-align: left; 
+    font-size: 1.1vw; 
+    color: #868DAC;
+    
+  }
+  
+  .subscription-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    padding: 0.5vw;
+    font-size: 1vw;  
+    border: 0.1px solid rgb(132, 132, 132); /* Добавлено белая рамка */
+    box-sizing: border-box; /* Учитывать padding и border при установке размеров */
+    width: 100%;
+  }
+  
+  .subscribe-button {
+    padding: 0.5vw 1vw;
+    background-color: #005BB9;
+    color: white;
+    border: none;
+    cursor: pointer; 
+    font-size: 1vw;
+  }
+  
+  .icons-container {
+    display: flex;
+    justify-content: center;
+    gap: 3vw; 
+    margin-left: 10vw;
+  }
+  
+  .icon {
+    width: 1.5vw;
+    height: 1.5vw;
+    cursor: pointer;
+  }
+  .column1{ 
+    flex: 1;
+    margin-top:1vw; 
+    margin-left: 3vw; 
+    margin-right: -3.5vw; 
+  } 
+  @media (max-width: 800px){ 
+     .containerf{ 
+      display: block; 
+
+     }
+    .column{ 
+      display: block; 
+      margin-bottom: 20px; 
+    } 
+    .titlef{ 
+      font-size: 4vw;
+    } 
+    .list-item{ 
+      font-size: 2vw;
+    } 
+    .column1{ 
+      margin-left: 1vw;
+    } 
+    .subscription-container{ 
+      margin-top: 1vw; 
+      margin-left: 0vw;
+    } 
+    .subscription-text { 
+      font-size: 3vw;
+    } 
+    .input{ 
+      height: 4vw;
+    } 
+    .icons-container{ 
+      margin-top: 2vw; 
+      padding-bottom: 5vw; 
+      margin-left: -40vw; 
+      gap: 0 10vw;
+    } 
+    .icon{ 
+      width: 3vw; 
+      height: auto;
+    } 
+    .subscribe-button{ 
+      width: 35vw;
+    } 
+    .info-image{ 
+      width: 20vw; 
+      height: auto;
+    }
+  }

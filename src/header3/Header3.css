@@ -1,0 +1,134 @@
+/* FullWidthHeader.css */
+
+.header-container {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 0 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4vw;
+  gap: 2vw;
+}
+
+.catalog-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8.5vw;
+  height: 2.76vw;
+  background-color: #005BB9;
+  color: white;
+  border: none;
+  border-radius: 0.42vw;
+  font-size: 0.73vw;
+  cursor: pointer;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 0.52vw;
+  flex: 1; /* Flex-grow to fill the available space */
+}
+
+.search-input {
+  flex: 1; /* Flex-grow to fill the available space */
+  height: 2.76vw;
+  background-color: #F4F5FA;
+  color: black;
+  border: none;
+  padding-left: 0.52vw;
+  font-size: 0.63vw;
+  border-radius: 0.42vw 0 0 0.42vw;
+}
+
+.search-button {
+  width: 5.26vw;
+  height: 2.76vw;
+  background-color: #005BB9;
+  color: white;
+  border: none;
+  border-radius: 0 0.42vw 0.42vw 0;
+  font-size: 0.73vw;
+  cursor: pointer; 
+  margin-left: -1vw;
+}
+
+.auth-container,
+.favorites-container,
+.cart-container {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 0.8vw;
+  cursor: pointer;
+  gap: 0.26vw;
+}
+
+.iconh3 {
+width: 1.6vw; 
+
+  
+} 
+.cartimg{ 
+  width: 1vw; 
+  height: 1vw; 
+  margin-right: 0.8vw;
+} 
+.catalogimg{ 
+  padding-right: 1vw; 
+  width: 2.5vw; 
+  height: 1vw;
+}
+@media (max-width: 800px){ 
+.auth-container{ 
+  display: none;
+} 
+.favorites-container{ 
+  display: none;
+} 
+.cart-container{ 
+  display: none;
+} 
+.catalog-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6vw;
+  height: 6vw;
+  background-color: #005BB9;
+  color: white;
+  border: none;
+  border-radius: 0.42vw;
+  font-size: 0vw;
+  cursor: pointer; 
+
+} 
+.catalogimg{ 
+  width: 4vw; 
+  height: 2vw; 
+  margin-left: 1vw;
+} 
+.search-input{ 
+  height: 6vw;  
+  font-size: 3vw; 
+  margin-left: 2vw;  
+  
+} 
+.search-button{ 
+  height: 6vw;  
+  width: 8vw;
+  margin-right: -2vw; 
+  font-size: 1.8vw;
+}
+   
+   
+
+   
+}
+
+
+

@@ -1,0 +1,86 @@
+.headerContainer {
+  width: 100%;
+  height: 3vw;
+  background-color: #0F2438;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10vw; 
+  box-sizing: border-box;  
+  align-items: center;
+  flex-wrap: nowrap; /* Запрещаем перенос элементов на новую строку */
+}
+
+
+.contentContainer {
+  display: flex;
+  align-items: center;
+}
+
+.location, .info, .cooperation {
+  color: white;
+  font-size: 1vw;
+  cursor: pointer; 
+  margin-right: 1vw; 
+} 
+.location{ 
+  margin-top: 0.3vw;
+}
+
+.icon {
+  width: 1.5vw;
+  height: 1.5vw;
+  margin-right: 0.4vw;
+}
+
+.menuContainer {
+  display: flex;
+  align-items: center;   
+ 
+}
+
+.menu {
+  list-style-type: none;
+  margin-right: -1.5vw;
+  padding: 0;
+  display: flex; 
+}
+
+.menu li {
+  color: white;
+  font-size: 1vw;
+  margin-right: 1.7vw;
+  cursor: pointer;
+}
+.cooperationmore{ 
+  display: none;
+}  
+
+@media (max-width: 800px) { 
+  .headerContainer{  
+    display: grid; /* Устанавливает Grid на контейнер */
+    grid-auto-flow: column; /* Располагает элементы по горизонтали */
+    width: auto; 
+    height: 8vw;
+  } 
+  .menu {
+    display: none;
+  } 
+  .cooperation{
+    display: none;  
+  } 
+  .info{
+    display: none;
+  } 
+  .cooperationmore{  
+    display: block;
+    color: white; 
+    padding-left: 2vw;
+    
+    cursor: pointer;  
+    font-size: 2.5vw;
+  }    
+  .icon{ 
+    display: none;
+  }
+  
+}

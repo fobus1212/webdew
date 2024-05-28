@@ -1,0 +1,164 @@
+.header-part2-container {
+  width: 100%;
+  height: auto;
+  padding: 0 10vw;
+  box-sizing: border-box;
+}
+
+.header-part2-content {
+  max-width: 1920px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  flex-grow: 1; 
+  display: flex;
+  align-items: center; 
+  margin-top: 1vw;
+}
+
+.logo-container .subtext {
+  font-size: 0.8vw;
+}
+.subtext{ 
+    margin-top: 2.9vw; 
+    position: absolute; 
+    margin-left: 5.8vw;   
+
+    
+
+
+
+} 
+.logo { 
+  margin-left: 0.5vw;
+}
+
+.working-hours-container {
+  flex-grow: 1; /* Контейнер рабочих часов также займет всю доступную ширину */
+  display: flex;
+  align-items: center;
+}
+
+.working-hours-container .green-rectangle {
+  background-color: #99da9b;
+  width: 13vw;
+  height: 2vw;
+  display: flex;
+  align-items: center;
+  margin-left: 53vw; /* Отступ от предыдущего элемента */ 
+  margin-top: -1.5vw;
+}
+
+.working-hours-container .green-rectangle p {
+  font-size: 0.7vw;
+  color: black;
+  margin-left: 1.5vw; /* Отступ от иконки */
+}
+
+.working-hours-container .contact-info {
+  font-size: 1.2vw;
+  margin-left: 2vw; /* Отступ от прямоугольника */
+}
+
+.time-container{ 
+    display: flex; 
+    margin-left: 20vw; 
+    margin-top: -3.5vw;
+} 
+.timelogo{ 
+    margin-right: 1.3vw; 
+    width: 2,4vw; 
+    height: 2.4vw;
+} 
+.subtexttime{ 
+    font-size: 0.8vw; 
+    margin-top: 0.5vw;
+}
+.mesto-container{  
+    margin-left: 38vw;
+}  
+.subtextmesto{ 
+margin-left: 2.8vw; 
+margin-top: -1.7vw; 
+font-size: 0.9vw;
+}  
+.mesto-container{ 
+    margin-top: -2.5vw;
+} 
+.mestologo{ 
+    width: 2.4vw; 
+    height: 2.4vw;
+}  
+.contact-info{ 
+    margin-top: -1.4vw; 
+} 
+.coretext{ 
+  font-size: 1.5vw; 
+  margin-left: -0.2vw;
+} 
+.corelogo{ 
+  width: 6vw; 
+  height:6vw;
+} 
+@media (max-width: 800px){    
+
+  .working-hours-container .contact-info { 
+  position: absolute;
+    font-size: 3vw;
+    margin-left: 10vw; /* Отступ от прямоугольника */ 
+    margin-top: -11vw;
+  } 
+  .working-hours-container .green-rectangle {
+    background-color: #99da9b;
+    width: 20vw;
+    height: 2.7vw;
+    display: flex;
+    align-items: center;
+    margin-left: 58vw; /* Отступ от предыдущего элемента */ 
+    margin-top: 0vw; 
+    
+  }
+  .mestologo{ 
+    display: none;
+  } 
+  .timelogo{ 
+    display: none;
+  } 
+  .subtextmesto{ 
+    display: none;
+  } 
+  .subtexttime{ 
+    display: none;
+  } 
+  .corelogo{ 
+    width: 15vw; 
+    height: 15vw;
+  } 
+  .coretext{ 
+    font-size: 4vw; 
+    margin-top: -2vw;
+  } 
+  .logo-container .subtext {
+    font-size: 2vw ; 
+    margin-left: 14.6vw;  
+    margin-top: 6vw;
+  } 
+  .working-hours-container{ 
+    margin-top: 1vw; 
+    font-size: 10vw;
+  }  
+  .contact-info{ 
+    position: absolute;  
+    padding-left: 48vw; 
+  }  
+  .logo{ 
+    width: 1.8vw;
+  } 
+  .working-hours-container .green-rectangle p { 
+    font-size: 1vw;
+  }
+ 
+}
